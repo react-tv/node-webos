@@ -1,19 +1,10 @@
 {
   "name": "node-webos",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./index.js",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/raphamorim/node-webos"
-  },
-  "bin": {
-    "webos-novacom": "./bin/ares-novacom.js",
-    "webos-generate": "./bin/ares-generate.js",
-    "webos-package": "./bin/ares-package.js",
-    "webos-install": "./bin/ares-install.js",
-    "webos-launch": "./bin/ares-launch.js",
-    "webos-inspect": "./bin/ares-inspect.js",
-    "webos-setup-device": "./bin/ares-setup-device.js"
   },
   "dependencies": {
     "archiver": "~0.21.0",
@@ -52,11 +43,6 @@
     "recursive-readdir": ">=1.2.1",
     "elfy": ">=0.1.0"
   },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">=1.2.11"
-  },
-  "engineStrict": true,
   "os": [
     "darwin",
     "linux",
@@ -69,11 +55,5 @@
   "scripts": {
     "test": "node_modules/.bin/mocha test/*.spec.js"
   },
-  "readmeFilename": "README.md",
-  "files": [
-    "ares",
-    "bin",
-    "lib",
-    "scripts"
-  ]
+  "readmeFilename": "README.md"
 }
