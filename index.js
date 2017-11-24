@@ -1,6 +1,6 @@
 const { execSync } = require('child_process');
 
-function run(commands) {
+function run(commands, path) {
   if (!commands.length) {
     return false;
   }
@@ -11,7 +11,6 @@ function run(commands) {
     command += ' ' + commands.join(' ');
   }
 
-  console.log(command)
   const subject = execSync(command, {cwd: process.cwd()});
   return subject;
 }
