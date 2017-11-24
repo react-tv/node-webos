@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 var nopt = require("nopt"),
   async = require("async"),
   path = require("path"),
