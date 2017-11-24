@@ -1,6 +1,7 @@
 {
   "name": "node-webos",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "main": "./index.js",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/raphamorim/node-webos"
