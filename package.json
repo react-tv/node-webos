@@ -1,10 +1,10 @@
 {
   "name": "node-webos",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "./index.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/raphamorim/node-webos"
+    "type": "git",
+    "url": "https://github.com/raphamorim/node-webos"
   },
   "dependencies": {
     "archiver": "~0.21.0",
