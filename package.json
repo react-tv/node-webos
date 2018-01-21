@@ -1,10 +1,9 @@
 {
   "name": "node-webos",
-  "version": "0.0.6",
-  "main": "./index.js",
+  "version": "0.3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/raphamorim/node-webos"
+    "url": "https://github.com/raphamorim/react-tv"
   },
   "dependencies": {
     "archiver": "~0.21.0",
@@ -48,10 +47,6 @@
     "linux",
     "win32"
   ],
-  "devDependencies": {
-    "mocha": "^1.8.2",
-    "should": "^1.2.2"
-  },
   "scripts": {
     "test": "node_modules/.bin/mocha test/*.spec.js"
   },
